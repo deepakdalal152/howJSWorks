@@ -1,8 +1,13 @@
 .box{
     box-shadow: 2px 2px 5px black;
-    background-color:floralwhite;
+    /* background-color:floralwhite; */
     color: aqua;
+    border-radius: 25px;
     /* border: 2px red solid; */
+}
+.title{
+    font-size: 250%;
+    padding: 5%;
 }
 .outer{
     width: 600px;
@@ -25,8 +30,9 @@
     margin: auto;
     padding: 7% 0% 7% 0%;
 }
-.score{
-    padding: 0%;
+#score{
+    padding: 10% 1% 2% 1%;
+    font-size: 200%;
     height: 20%;
     width: 40%;
     margin: auto;
@@ -43,5 +49,6 @@
     background-color: aliceblue;
     color: aqua;
     font-size: 150%;
+    border-radius: 15px;
 }
 

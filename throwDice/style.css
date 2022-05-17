@@ -2,24 +2,42 @@
     border: 2px red solid;
 }
 .outer{
-    width: 30%;
-    height: 30%;
+    width: 400px;
+    height: 600px;
+    margin: auto;
+    text-align: center;
 }
 
 .member,.dices{
     width: 100%;
-    height: 40%;
+    height: 15%;
     display: flex;
+    padding:10% 0% 10% 0%; 
+    justify-content: space-around;
 }
 
-.button,.score{
+.button{
     height: 10%;
-    width: 100%;
+    width:  40%;
+    margin: auto;
+    padding: 7% 0% 7% 0%;
 }
-.member > .name, .dices > .dice, .button > .dice{
+.score{
+    padding: 0%;
+    height: 20%;
+    width: 40%;
+    margin: auto;
+}
+.member > .name, .dices > .dice{
     width: 25%;
     height: 100%;
     margin: auto;
     font-size: 150%;
+}
+.button > .dice{
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+    color: aqua;
 }
 

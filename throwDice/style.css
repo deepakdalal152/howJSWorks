@@ -1,0 +1,25 @@
+.box{
+    border: 2px red solid;
+}
+.outer{
+    width: 30%;
+    height: 30%;
+}
+
+.member,.dices{
+    width: 100%;
+    height: 40%;
+    display: flex;
+}
+
+.button,.score{
+    height: 10%;
+    width: 100%;
+}
+.member > .name, .dices > .dice, .button > .dice{
+    width: 25%;
+    height: 100%;
+    margin: auto;
+    font-size: 150%;
+}
+
